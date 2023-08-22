@@ -4,7 +4,7 @@ import Card from './components/Card';
 
 export default function App() {
   return (
-    <ScrollView style={{marginTop: 30}}>
+    <ScrollView style={{margin: 10}}>
     <View style={styles.card}>
       <Text style={styles.titulo}>Hello Word!</Text>
       <Text>Isto é parágrafo.</Text>
