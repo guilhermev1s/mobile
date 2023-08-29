@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Text } from 'react-native'
-import Botoes from '../components/Botoes'
 import Card from '../components/Card'
 
 const Pagina1 = () => {
