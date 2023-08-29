@@ -2,10 +2,14 @@ import React from 'react'
 import { Button, Text } from 'react-native'
 import Card from '../components/Card'
 
-const Pagina1 = () => {
+const Pagina1 = ({navigation}) => {
+
+
     return (
         <>
-            <Botoes />
+
+            <Button title='Página 2' onPress={()=> navigation.navigate('pagina2')} />
+            <Button title='Página 3' onPress={()=> navigation.navigate('pagina3')} />
 
             <Card titulo="Sem Conteúdo" />
 
